@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
     {
         Console.WriteLine("you are a child");
     }
-    else if (age >= 13 && age <= 19)
+    else if (age >= 13 && age <= 19) // (age >= 13 && age <= 19) kontrollerar om åldern är inom intervallet 13 till 19
     {
         Console.WriteLine("you are a teenager");
     }
